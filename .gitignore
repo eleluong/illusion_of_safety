@@ -160,3 +160,4 @@ cython_debug/
 # Or keep them if they are the primary output of the research
 # data/report/
 !data/report/.gitkeep
+.DS_Store

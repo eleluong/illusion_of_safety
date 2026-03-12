@@ -14,13 +14,16 @@ from src.scripts.analyze_guardrails import run_aggregate_report_workflow
 # --- Configuration ---
 # MODEL_NAME = "MiniMaxAI/MiniMax-M2.5"
 # MODEL_NAME = "UWNSL/DeepSeek-R1-Distill-Qwen-7B-SafeChain"
-MODEL_NAME = "Qwen/Qwen3.5-4B"
+# MODEL_NAME = "Qwen/Qwen3.5-4B"
+MODEL_NAME = "Qwen/Qwen3-4B"
+# MODEL_NAME = "Qwen/Qwen3-4B-SafeRL"
+
 MAX_CONCURRENT = 10
 DATA_DIR = "data/outputs"
 ANALYZED_DIR = "data/analyzed"
 REPORT_DIR = "data/report"
 AGGREGATE_REPORT_PATH = "data/guardrail_analysis_report.md"
-BASE_URL = "https://yale-feeding-style-banner.trycloudflare.com/v1"
+BASE_URL = "https://hopefully-starring-lanes-gst.trycloudflare.com/v1"
 
 # Load environment variables
 load_dotenv()
